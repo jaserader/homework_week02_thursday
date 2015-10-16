@@ -112,7 +112,7 @@ a.subscribe {
 
   div {
     @include span-columns(12);
-    background: gray url("../assets/top-image.png") no-repeat;
+    background: gray url("../assets/top-image.png") -80px -150px no-repeat;
     border: 6px $mainWhite solid;
     height: 350px;
     position: relative;
@@ -154,6 +154,7 @@ a.subscribe {
 
 .featured {
   @include span-columns(12);
+  margin-bottom: 50px;
 
   div {
     @include span-columns(4 of 12);
@@ -195,6 +196,107 @@ a.subscribe {
 
 .skateboardersImg {
   @include span-columns(12);
-  height: 480px;
+  height: 500px;
+
+  .skater {
+    @include span-columns(4.5 of 9);
+    @include omega(2n);
+    border: 5px $mainWhite solid;
+    height: 235px;
+    position: relative;
+    box-shadow: 0px 5px 1px #888888;
+
+    span {
+      position: absolute;
+      color: $mainWhite;
+      font-size: 40px;
+      font-weight: bolder;
+      top: 50px;
+      left: 10px;
+    }
+  }
+
+  div.skatersLeft {
+    @include span-columns(9 of 12);
+
+    div.lance {
+      background: url("../assets/sk8er-4.png") 0 0 no-repeat;
+    }
+
+    div.rodney {
+      background: url("../assets/sk8er-3.png") center no-repeat;
+    }
+
+    div.steve {
+      margin: 25px 0 0 0;
+      @include span-columns(9 of 9);
+      background: url("../assets/sk8er-1.png") 0 -130px no-repeat;
+      background-size: cover;
+    }
+  }
+
+  div.tommy {
+    @include span-columns(3 of 12);
+    height: 495px;
+    background: url("../assets/sk8er-2.png") -500px 0 no-repeat;
+    background-size: cover;
+  }
+}
+
+.decks {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  @include span-columns(12);
+  height: 320px;
+  background: #fff;
+  box-shadow: 0px 5px 1px #888888;
+  padding: 20px;
+
+  img {
+    @include span-columns(1.2 of 12);
+    height: 280px;
+  }
+}
+
+.footer {
+  @include span-columns(12);
+  background: $mainWhite;
+  padding: 25px;
+  height: 340px;
+
+  div.contactFooter {
+    @include span-columns(6 of 12);
+    @include omega(1n);
+  }
+
+  fieldset.contactForm {
+    @include span-columns(6 of 12);
+    height: 290px;
+
+    input {
+      margin-bottom: 5px;
+      @include span-columns(6 of 6);
+      height: 45px;
+      padding: 15px;
+      font-size: 18px;
+      font-weight: lighter;
+      }
+
+    input.yourMessage {
+        height: 115px;
+
+    }
+    button {
+      @include span-columns(3 of 6);
+      @include shift(3);
+      background: $mainRed;
+      border: none;
+      height: 45px;
+      font-size: 18px;
+      font-weight: lighter;
+      color: $mainWhite;
+    }
+
+  }
 
 }

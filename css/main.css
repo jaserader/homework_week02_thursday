@@ -121,7 +121,7 @@ a.subscribe {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    background: gray url("../assets/top-image.png") no-repeat;
+    background: gray url("../assets/top-image.png") -80px -150px no-repeat;
     border: 6px #FFFAF8 solid;
     height: 350px;
     position: relative;
@@ -168,7 +168,8 @@ a.subscribe {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 50px; }
   .featured:last-child {
     margin-right: 0; }
   .featured div {
@@ -209,6 +210,139 @@ a.subscribe {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  height: 480px; }
+  height: 500px; }
   .skateboardersImg:last-child {
     margin-right: 0; }
+  .skateboardersImg .skater {
+    float: left;
+    display: block;
+    margin-right: 3.16844%;
+    width: 48.41578%;
+    border: 5px #FFFAF8 solid;
+    height: 235px;
+    position: relative;
+    box-shadow: 0px 5px 1px #888888; }
+    .skateboardersImg .skater:last-child {
+      margin-right: 0; }
+    .skateboardersImg .skater:nth-child(2n) {
+      margin-right: 0; }
+    .skateboardersImg .skater:nth-child(2n+1) {
+      clear: left; }
+    .skateboardersImg .skater span {
+      position: absolute;
+      color: #FFFAF8;
+      font-size: 40px;
+      font-weight: bolder;
+      top: 50px;
+      left: 10px; }
+  .skateboardersImg div.skatersLeft {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    .skateboardersImg div.skatersLeft:last-child {
+      margin-right: 0; }
+    .skateboardersImg div.skatersLeft div.lance {
+      background: url("../assets/sk8er-4.png") 0 0 no-repeat; }
+    .skateboardersImg div.skatersLeft div.rodney {
+      background: url("../assets/sk8er-3.png") center no-repeat; }
+    .skateboardersImg div.skatersLeft div.steve {
+      margin: 25px 0 0 0;
+      float: left;
+      display: block;
+      margin-right: 3.16844%;
+      width: 100%;
+      background: url("../assets/sk8er-1.png") 0 -130px no-repeat;
+      background-size: cover; }
+      .skateboardersImg div.skatersLeft div.steve:last-child {
+        margin-right: 0; }
+  .skateboardersImg div.tommy {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    height: 495px;
+    background: url("../assets/sk8er-2.png") -500px 0 no-repeat;
+    background-size: cover; }
+    .skateboardersImg div.tommy:last-child {
+      margin-right: 0; }
+
+.decks {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  height: 320px;
+  background: #fff;
+  box-shadow: 0px 5px 1px #888888;
+  padding: 20px; }
+  .decks:last-child {
+    margin-right: 0; }
+  .decks img {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 7.87811%;
+    height: 280px; }
+    .decks img:last-child {
+      margin-right: 0; }
+
+.footer {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: #FFFAF8;
+  padding: 25px;
+  height: 340px; }
+  .footer:last-child {
+    margin-right: 0; }
+  .footer div.contactFooter {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .footer div.contactFooter:last-child {
+      margin-right: 0; }
+    .footer div.contactFooter:nth-child(1n) {
+      margin-right: 0; }
+    .footer div.contactFooter:nth-child(1n+1) {
+      clear: left; }
+  .footer fieldset.contactForm {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    height: 290px; }
+    .footer fieldset.contactForm:last-child {
+      margin-right: 0; }
+    .footer fieldset.contactForm input {
+      margin-bottom: 5px;
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 100%;
+      height: 45px;
+      padding: 15px;
+      font-size: 18px;
+      font-weight: lighter; }
+      .footer fieldset.contactForm input:last-child {
+        margin-right: 0; }
+    .footer fieldset.contactForm input.yourMessage {
+      height: 115px; }
+    .footer fieldset.contactForm button {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%;
+      margin-left: 52.41458%;
+      background: #B4292E;
+      border: none;
+      height: 45px;
+      font-size: 18px;
+      font-weight: lighter;
+      color: #FFFAF8; }
+      .footer fieldset.contactForm button:last-child {
+        margin-right: 0; }
