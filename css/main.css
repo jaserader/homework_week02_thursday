@@ -1,0 +1,214 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  background: gray url("../assets/bg.jpg") no-repeat center;
+  font-family: sans-serif;
+  position: relative; }
+  body::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+header {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  height: 160px;
+  margin: 0; }
+  header:last-child {
+    margin-right: 0; }
+
+.socialTopBar {
+  height: 50px;
+  font-size: 40px; }
+
+.socialNav {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 40.29137%;
+  margin-left: 76.76824%;
+  margin-bottom: 25px; }
+  .socialNav:last-child {
+    margin-right: 0; }
+  .socialNav a {
+    height: 62px;
+    width: 62px;
+    color: #FFFAF8;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 12px;
+    box-shadow: 0px 5px 1px #888888; }
+
+a.subscribe {
+  margin-left: 59.70863%;
+  color: #FFFAF8;
+  width: 80px;
+  font-weight: lighter;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+  top: 45px; }
+
+.fa-facebook {
+  background: #445897;
+  opacity: .9; }
+
+.fa-rss {
+  background: #CC8F32;
+  opacity: .9; }
+
+.fa-twitter {
+  background: #6A8DC7;
+  opacity: .9; }
+
+.fa-youtube {
+  background: #B4292E;
+  opacity: .9; }
+
+.mainNav {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .mainNav:last-child {
+    margin-right: 0; }
+  .mainNav div {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    background: #B4292E;
+    font-size: 18px;
+    height: 40px;
+    box-shadow: 0px 5px 1px #888888;
+    position: relative; }
+    .mainNav div:last-child {
+      margin-right: 0; }
+    .mainNav div a {
+      height: 40px;
+      width: 250px;
+      text-decoration: none;
+      text-align: center;
+      position: absolute;
+      padding-top: 10px;
+      color: #fff; }
+
+.hero {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  height: 415px; }
+  .hero:last-child {
+    margin-right: 0; }
+  .hero div {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background: gray url("../assets/top-image.png") no-repeat;
+    border: 6px #FFFAF8 solid;
+    height: 350px;
+    position: relative;
+    margin-bottom: 10px; }
+    .hero div:last-child {
+      margin-right: 0; }
+    .hero div img.grid {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      height: 340px; }
+      .hero div img.grid:last-child {
+        margin-right: 0; }
+    .hero div img.logo {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      position: absolute;
+      top: 50px;
+      left: 25px; }
+      .hero div img.logo:last-child {
+        margin-right: 0; }
+  .hero ol {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+    margin-left: 42.64902%; }
+    .hero ol:last-child {
+      margin-right: 0; }
+    .hero ol input {
+      height: 18px;
+      width: 18px;
+      border: none;
+      border-radius: 50%;
+      box-shadow: 0px 5px 1px #888888; }
+      .hero ol input:focus {
+        background: #B4292E;
+        outline: none; }
+
+.featured {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .featured:last-child {
+    margin-right: 0; }
+  .featured div {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    background: #FFFAF8;
+    height: 352px;
+    box-shadow: 0px 5px 1px #888888;
+    padding: 25px;
+    position: relative; }
+    .featured div:last-child {
+      margin-right: 0; }
+    .featured div h2 {
+      font-weight: normal;
+      font-size: 25px;
+      color: #383934;
+      margin-top: 0;
+      margin-bottom: 10px; }
+    .featured div .meta {
+      font-size: 14px;
+      color: #AEAEAE; }
+    .featured div p {
+      font-weight: lighter;
+      font-size: 15px;
+      color: #525252;
+      position: absolute;
+      top: 138px;
+      padding-right: 15px; }
+    .featured div a {
+      position: absolute;
+      top: 320px;
+      left: 120px; }
+
+.skateboardersImg {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  height: 480px; }
+  .skateboardersImg:last-child {
+    margin-right: 0; }
