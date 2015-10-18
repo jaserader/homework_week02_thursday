@@ -14,12 +14,36 @@ body {
   margin-left: auto;
   margin-right: auto;
   background: gray url("../assets/bg.jpg") no-repeat center;
+  background-size: cover;
   font-family: sans-serif;
   position: relative; }
   body::after {
     clear: both;
     content: "";
     display: table; }
+  body div.skateboardersTag {
+    color: #FFFAF8;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 23px;
+    padding-left: 5px;
+    position: absolute;
+    top: 1065px;
+    left: -145px;
+    height: 60px;
+    width: 120px;
+    background: #B4292E; }
+  body div.skateboardersTriangle {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-left: 20px solid #B4292E;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    top: 1065px;
+    left: -25px;
+    height: 60px;
+    width: 170px; }
 
 header {
   float: left;
@@ -177,7 +201,7 @@ a.subscribe {
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%;
-    background: #FFFAF8;
+    background: #FCFCFC;
     height: 352px;
     box-shadow: 0px 5px 1px #888888;
     padding: 25px;
@@ -229,12 +253,15 @@ a.subscribe {
     .skateboardersImg .skater:nth-child(2n+1) {
       clear: left; }
     .skateboardersImg .skater span {
+      margin-left: 22.92632%;
       position: absolute;
       color: #FFFAF8;
-      font-size: 40px;
+      font-size: 45px;
       font-weight: bolder;
-      top: 50px;
-      left: 10px; }
+      top: 68px; }
+    .skateboardersImg .skater span.cab {
+      margin-left: 25.58941%;
+      top: 84px; }
   .skateboardersImg div.skatersLeft {
     float: left;
     display: block;
@@ -266,6 +293,9 @@ a.subscribe {
     background-size: cover; }
     .skateboardersImg div.tommy:last-child {
       margin-right: 0; }
+    .skateboardersImg div.tommy span.guerrero {
+      left: -48px;
+      font-size: 40px; }
 
 .decks {
   margin-top: 50px;
@@ -275,7 +305,7 @@ a.subscribe {
   margin-right: 2.35765%;
   width: 100%;
   height: 320px;
-  background: #fff;
+  background: #FCFCFC;
   box-shadow: 0px 5px 1px #888888;
   padding: 20px; }
   .decks:last-child {
@@ -294,32 +324,50 @@ a.subscribe {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  background: #FFFAF8;
+  background: #FCFCFC;
   padding: 25px;
-  height: 340px; }
+  height: 360px;
+  margin-bottom: 100px; }
   .footer:last-child {
     margin-right: 0; }
   .footer div.contactFooter {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 48.82117%; }
+    width: 48.82117%;
+    padding-right: 40px;
+    padding-left: 15px;
+    color: #525252; }
     .footer div.contactFooter:last-child {
       margin-right: 0; }
     .footer div.contactFooter:nth-child(1n) {
       margin-right: 0; }
     .footer div.contactFooter:nth-child(1n+1) {
       clear: left; }
+    .footer div.contactFooter h3 {
+      font-size: 27px;
+      font-weight: normal; }
+    .footer div.contactFooter p {
+      line-height: 175%; }
+    .footer div.contactFooter nav a {
+      color: #FFFAF8;
+      font-size: 17px;
+      text-align: center;
+      padding-top: 4px;
+      height: 25px;
+      width: 25px;
+      text-decoration: none; }
   .footer fieldset.contactForm {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%;
+    border: none;
     height: 290px; }
     .footer fieldset.contactForm:last-child {
       margin-right: 0; }
     .footer fieldset.contactForm input {
-      margin-bottom: 5px;
+      margin-bottom: 15px;
       float: left;
       display: block;
       margin-right: 4.82916%;
@@ -327,12 +375,16 @@ a.subscribe {
       height: 45px;
       padding: 15px;
       font-size: 18px;
-      font-weight: lighter; }
+      font-weight: lighter;
+      border: 1px #525252 solid;
+      border-top: 3px #B2B2B2 solid;
+      border-left: 3px #B2B2B2 solid; }
       .footer fieldset.contactForm input:last-child {
         margin-right: 0; }
     .footer fieldset.contactForm input.yourMessage {
       height: 115px; }
     .footer fieldset.contactForm button {
+      margin-top: 10px;
       float: left;
       display: block;
       margin-right: 4.82916%;
