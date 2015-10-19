@@ -327,7 +327,8 @@ a.subscribe {
   background: #FCFCFC;
   padding: 25px;
   height: 360px;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  box-shadow: 0px 5px 1px #888888; }
   .footer:last-child {
     margin-right: 0; }
   .footer div.contactFooter {
